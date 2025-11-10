@@ -53,15 +53,21 @@ gap:12px;
 }
 /* les classes de largeur */
 .w-100 {
-    width: 100;
+    width: 100%;
 
 }
 .w-22 {
-    width: 22;
+    width: 22%;
 
 }
 .w-33 {
-    width: 33;
+    width: 33%;
+}
+.w-50 {
+    width: 50%;
+}
+.w-10 {
+    width: 10%;
 }
 .andada-pro- {
   font-family: "Andada Pro", serif;
@@ -77,13 +83,23 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .bg-red {
+    background-color: red;
 
 }
 .bg-green {
+    background-color: green;
 
 }
 #trait {
     width: 100%;
     background-color: bisque;
     height: 1px;
+}
+.supp-puces{
+    list-style-type: none;/* supprimer les puces d'une liste */
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
