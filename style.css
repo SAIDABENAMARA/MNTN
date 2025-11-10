@@ -4,3 +4,86 @@
     padding: 0%;
     margin: 0%;
 }
+/* Les clacsses fonctionnelles flex box */
+
+.flex {
+display:flex;
+flex-wrap:wrap;
+}
+
+/* alignement horizontale */
+.space-between {
+justify-content:space-between;
+}
+
+.space-around {
+justify-content:space-around;
+}
+
+.space-evenly {
+justify-content:space-evenly;
+}
+
+.justify-center {
+justify-content:center;
+}
+
+.flex-end {
+justify-content:flex-end;
+}
+
+.flex-start {
+justify-content:flex-start;
+}
+
+/* alignement verticale */
+
+.align-center {
+align-items:center;
+}
+
+.align-end{
+align-items:end;
+}
+
+/* Gap */
+
+.gap-12 {
+gap:12px;
+}
+/* les classes de largeur */
+.w-100 {
+    width: 100;
+
+}
+.w-22 {
+    width: 22;
+
+}
+.w-33 {
+    width: 33;
+}
+.andada-pro- {
+  font-family: "Andada Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Andada Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.bg-red {
+
+}
+.bg-green {
+
+}
+#trait {
+    width: 100%;
+    background-color: bisque;
+    height: 1px;
+}
